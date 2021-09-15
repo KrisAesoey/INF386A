@@ -4,7 +4,7 @@ P(Jazz | Home Office = no, Summer) = P(Jazz) * P(Home Office = no | Jazz) * P(Su
 P(Jazz) = 3/5
 P(Home Office = no | Jazz) = 2/3
 P(Summer | Jazz) = 2/3
-P(Jazz | Home Office = no, Summer) = 3/5 * 2/3 * 2/3 = 4/5
+P(Jazz | Home Office = no, Summer) = 3/5 * 2/3 * 2/3 = 4/15
 
 P(Classical | Home Office = no, Summer) = P(Classical) * P(Home Office = no | Classical) * P(Summer | Classical)
 P(Classical) = 2/5
@@ -33,7 +33,7 @@ P(“dark” | -) = (2 + 1) / (6 + 9) = ⅕
 P(“colors”| +) = (0 + 1) / (4 + 9) = 1/13
 P(“colors”| -) = (2 + 1) / (6 + 9) = ⅕
 
-P(-)P(S|-) = ⅗ * (3 * 3) / 15^2) = 3/125 
-P(+)P(S|+) = ⅖  * (1 * 1) / 13^2) = 2/845
+P(-)P(S|-) = ⅗ * ((3 * 3) / 15^2) = 3/125 
+P(+)P(S|+) = ⅖  * ((1 * 1) / 13^2) = 2/845
 
 Negative sentiment, with 3/125 likelihood.
