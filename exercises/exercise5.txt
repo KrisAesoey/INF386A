@@ -1,0 +1,8 @@
+I made a python program to solve the example,
+the program is attached as a separate file.
+These are the results from running it:
+
+Loss if y = 1:  9.232626847195744e-05
+Loss if y = 0:  -9.290228020895654
+The gradient for the example:  ([-0.05862446150271272, -0.11724892300542544], -0.02931223075135636)
+The weight and bias after gradient descent:  ([0.504689956920217, 0.509379913840434], 0.3906877692486436)

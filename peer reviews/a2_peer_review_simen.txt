@@ -1,0 +1,13 @@
+Quality of documentation:
+The report has a very detailed User Guide that makes it very clear how to install and run the software which is great. The requirements.txt file also specifies which version has been used of all the packages that is always helpful when trying to recreate the results.
+
+The code itself is also commented properly with explanations for most steps, gladly not to the degree of clarifying trivial actions like iterating over lists and appending to dictionaries. Some of the comments could have been made into docstrings, which would be beneficial when using an IDE to quickly look up what a method does.
+
+Ease of use:
+The tools are generic and flexible which makes them great to implement into a variety of different contexts. There is only a need to instantiate the objects and run a single method to get requested results which is very user-friendly.
+
+Robustness:
+The logistic regressor checks for valid input which is great and the tool accepts more input than the examples require which is great. I agree that automated testing could be a point of expansion, but it would be great to read some reflections on what type of input the Sentiment Classifier is not equipped to handle, like negation.
+
+Effectiveness:
+Overall, a couple of very clean, generalized, well-documented tools that are effective and usable in multiple situations.

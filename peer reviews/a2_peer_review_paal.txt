@@ -1,0 +1,17 @@
+Quality of documentation:
+Which installations are required and how to install them are greatly explained. How to use the tools are also properly shown with example screenshots that clearly shows the practical use of them. 
+
+The report also states what the tasks are and what type of calculations the tools use to get results which is also very nice. The more complex methods in the code are also documented well explaining what they do and what both input and output represents and looks like.
+
+Ease of use:
+Extremely simple to use the tools. Initializing the classes and using a couple of methods on the data was all that was necessary to get results, which makes it flexible and easy to integrate into multiple contexts.
+However, the Sentiment Classifier returns the probabilities of all the classes it calculates, but I would have liked it if the predicted one would be specified somehow as well.
+
+Robustness:
+Some error handling has been done for the Logistic Regression which is great. The documentation has explained the design choices limiting the input the tools can accept, but naturally it would be even better if it was expanded upon.
+
+Effectiveness:
+Overall the product is very satisfactory. It allows the user to get results from data the user would  be expected to give it in a clear and understandable way. There are a few extra details that are also great, like the add-k smoothing for the Sentiment Classifier and plotting of the decision boundary for the Logistic Regressor.
+
+These are optional, but offer some flexibility for the user and the ability to customize the training process as well as giving some nice visual feedback of the tool, which I am a big fan of personally. I only wish that the plotting of the training loss across x epochs was also a method available in the tool, as it has been done manually afterwards in the Notebook.
+
